@@ -112,6 +112,7 @@ body{
     text-align: center;
 }
 
+
 .techno
 {
     display: flex;
@@ -140,6 +141,7 @@ body{
     font-weight: bold;
     font-size: large;
 }
+
 
 .section
 {
@@ -202,18 +204,6 @@ body{
 {
     text-align: center;
     padding-bottom: 4rem;
-}
-
-.hero-proj
-{
-    padding:2rem;
-}
-
-.hero-proj .hero-img
-{
-    max-width: 450px;
-    display: block;
-    margin:auto;
 }
 
 .section h2
