@@ -119,28 +119,41 @@ body{
     margin: auto;
     max-width: 90%;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
-.skills .skills-img
+.skills
+{
+    float:left;
+    width:50%;
+}
+
+.skills img
 {
     width: 100%;
-    height: auto;
-    max-width: 700px;
+    height: 100%;
 }
 
 .skills-data
 {
-    flex: 50%;
+    float:right;
+    width:50%;
+    /* flex: 50%;
     margin: 4rem 0;
-    padding: 3rem;
+    padding: 3rem;   */
 }
 
-.skills-data p
-{
-    font-weight: bold;
-    font-size: large;
-}
+.skills-data article {
+    position: relative;
+    top: 50%;
+    left: 60%;
+    padding: 0.5rem;
+    text-align: justify;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    
+  }
+
 
 
 .section
@@ -158,7 +171,7 @@ body{
 .ow
 {
     background-color: var(--offwhite);
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     border-radius: 1rem;
 }
 
@@ -216,7 +229,3 @@ body{
     text-align: center;
     padding-bottom: 2rem;
 }
-
-
-
-
